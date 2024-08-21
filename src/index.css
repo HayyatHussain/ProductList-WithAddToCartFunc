@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Red";
+    src: url(/src/assets/fonts/RedHatText-VariableFont_wght.ttf);
+}
+
+.red {
+    font-family: "Red";
+}
+
+.readOnly {
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-select: none;
+}
